@@ -1,0 +1,47 @@
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+}
+
+
+.sec,.caps,.actualgif {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: stretch;
+
+}
+
+.actualgif > img {
+  display: flex;
+  align-items: stretch;
+}
+
+
+.caps > img {
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+}
+
+
+.sec > p {
+  width: 70%;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+
+}
+
+.actualgif > p {
+  width: 70%;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+
+}
